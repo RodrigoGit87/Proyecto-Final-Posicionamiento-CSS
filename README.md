@@ -14,7 +14,7 @@ El objetivo de la práctica es crear una página web utilizando las técnicas de
 
 ## Enunciado de la Práctica
 Puedes consultar los requisitos detallados del ejercicio en el documento PDF adjunto en este repositorio:
-[📄 Ver Enunciado del Proyecto (PDF)](./Proyecto Final Posicionamiento.pdf)
+[📄 Ver Enunciado del Proyecto (PDF)](./Proyecto-Final-Posicionamiento.pdf)
 
 ## Autor
 **Rodrigo Llamas Gil**

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- POR HACER: Añadir  icono enlace a mi github
+                Pulir HTML y CSS
+                Añadir enlaces a las secciones
+                ¿Añadir mas contenido a la <seccion-info>? -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptomonedas </title>
+    <link rel="stylesheet" href="./styles/styles.css"> <!-- Hoja de CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet"><!-- Google Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"><!-- Work Sans-->
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"> <!-- fuente de logo: photoroom.com/es/-->
+                <img src="./assets/imagenes/bitcoin logo.webp" alt="Logo Bitcoin">
+            </div>
+
+            <div class="menu-links">
+                <a href="seccion-imagenes">Galería</a>
+                <a href="seccion-tabla">Tabla TopList </a>
+                <a href="seccion-info">Historia Blockchain</a>
+            </div>
+
+            <div class="login-form">
+                <div class="login">
+                    <label for="user">Usuario:</label>
+                    <input type="text" placeholder="Usuario" required>
+                </div>
+                <div class="login">
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" placeholder="Contraseña" minlength="8" required>
+                </div>
+                <div class="login">
+                    <button type="submit">Entrar</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="seccion-imagenes"> <!--Fuente imagenes: https://github.com/Cryptofonts/cryptoicons/blob/master/128-->
+        <h2>Galería de Activos</h2>
+
+        <div class="galeria-flex">
+            <div>
+                <!--Como es un proyecto de posicionamiento he usado div para hacer un grid. Pero <figure> quedaría mejor-->
+                <img src="./assets/imagenes/1.png" alt="Bitcoin">
+                <figcaption>Bitcoin (BTC)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/eth.png" alt="Ethereum">
+                <figcaption>Ethereum (ETH)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/ada.png" alt="Cardano">
+                <figcaption>Cardano (ADA)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/sol.png" alt="Solana">
+                <figcaption>Solana (SOL)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/litecoin.png" alt="Litecoin">
+                <figcaption>Litecoin (LTC)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/tron.png" alt="Tron">
+                <figcaption>Tron (TRX)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/bnb.png" alt="BNB">
+                <figcaption>BNB (BNB)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/usdt.png" alt="USDT">
+                <figcaption>Tether (USDT)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/xrp.png" alt="XRP">
+                <figcaption>XRP (XRP)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/doge.png" alt="DOGECOIN">
+                <figcaption>DOGECOIN (DOGE)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/wrapped ether.png" alt="WETH">
+                <figcaption>WRAPPED ETHEREUM (WETH)</figcaption>
+            </div>
+
+            <div>
+                <img src="./assets/imagenes/usdc.png" alt="USDC">
+                <figcaption>USDC (USDC)</figcaption>
+            </div>
+        </div>
+    </section>
+
+    <section id="seccion-tabla">
+        <h2>Comparativa de Mercado</h2>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Activo</th>
+                        <th>Lanzamiento</th>
+                        <th>Fundador</th>
+                        <th>Consenso</th>
+                        <th>ATH (Precio máx)</th>
+                        <th>Logo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bitcoin</td>
+                        <td>2009</td>
+                        <td>Satoshi Nakamoto</td>
+                        <td>PoW</td>
+                        <td>127,000 $</td>
+                        <td><img src="./assets/imagenes/1.png" alt="Logo BTC"></td>
+                    </tr>
+                    <tr>
+                        <td>Ethereum</td>
+                        <td>2015</td>
+                        <td>Vitalik Buterin</td>
+                        <td>PoS</td>
+                        <td>4,800 $</td>
+                        <td><img src="./assets/imagenes/eth.png" alt="Logo ETH"></td>
+                    </tr>
+                    <tr>
+                        <td>Cardano</td>
+                        <td>2017</td>
+                        <td>Charles Hoskinson</td>
+                        <td>PoS</td>
+                        <td>3.10 $</td>
+                        <td><img src="./assets/imagenes/ada.png" alt="Logo ADA"></td>
+                    </tr>
+                    <tr>
+                        <td>Solana</td>
+                        <td>2020</td>
+                        <td>Anatoly Yakovenko</td>
+                        <td>PoH</td>
+                        <td>293 $</td>
+                        <td><img src="./assets/imagenes/sol.png" alt="Logo SOL"></td>
+                    </tr>
+                    <tr>
+                        <td>Litecoin</td>
+                        <td>2011</td>
+                        <td>Charlie Lee</td>
+                        <td>PoW</td>
+                        <td>412 $</td>
+                        <td><img src="./assets/imagenes/litecoin.png" alt="Logo LTC"></td>
+                    </tr>
+                    <tr>
+                        <td>Tron</td>
+                        <td>2018</td>
+                        <td>Justin Sun</td>
+                        <td>DPoS</td>
+                        <td>0.44 $</td>
+                        <td><img src="./assets/imagenes/tron.png" alt="Logo TRX"></td>
+                    </tr>
+                    <tr>
+                        <td>BNB</td>
+                        <td>2017</td>
+                        <td>Changpeng Zhao</td>
+                        <td>PoSA</td>
+                        <td>900 $</td>
+                        <td><img src="./assets/imagenes/bnb.png" alt="Logo BNB"></td>
+                    </tr>
+                    <tr>
+                        <td>Tether</td>
+                        <td>2014</td>
+                        <td>Brock Pierce</td>
+                        <td>Stablecoin</td>
+                        <td>Estable 1:1</td>
+                        <td><img src="./assets/imagenes/usdt.png" alt="Logo USDT"></td>
+                    </tr>
+                    <tr>
+                        <td>XRP</td>
+                        <td>2012</td>
+                        <td>Jed McCaleb</td>
+                        <td>Federated</td>
+                        <td>3.84 $</td>
+                        <td><img src="./assets/imagenes/xrp.png" alt="Logo XRP"></td>
+                    </tr>
+                    <tr>
+                        <td>Dogecoin</td>
+                        <td>2013</td>
+                        <td>Billy Markus</td>
+                        <td>PoW</td>
+                        <td>0.74 $</td>
+                        <td><img src="./assets/imagenes/doge.png" alt="Logo DOGE"></td>
+                    </tr>
+                    <tr>
+                        <td>Wrapped Ether</td>
+                        <td>2017</td>
+                        <td>N/A</td>
+                        <td>PoS</td>
+                        <td>4,890 $</td>
+                        <td><img src="./assets/imagenes/wrapped ether.png" alt="Logo WETH"></td>
+                    </tr>
+                    <tr>
+                        <td>USDC</td>
+                        <td>2018</td>
+                        <td>Coinbase</td>
+                        <td>Stablecoin</td>
+                        <td>Estable 1:1</td>
+                        <td><img src="./assets/imagenes/usdc.png" alt="Logo USDC"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="seccion-info">
+        <h2>Análisis Fundamental: Bitcoin</h2>
+        <div class="info-div">
+            <p>
+                Bitcoin es un protocolo, proyecto de código abierto y red entre pares que se utiliza como criptomoneda,
+                sistema de pago y mercancía. Fue concebida en 2008 por una entidad conocida bajo el seudónimo de Satoshi
+                Nakamoto.
+                <br><br>
+                <strong>La tecnología Blockchain:</strong><br>
+                En el corazón de Bitcoin se encuentra la <em>blockchain</em> (cadena de bloques), un libro de
+                contabilidad público y distribuido
+                donde se registran todas las transacciones. A diferencia de un banco tradicional, donde un servidor
+                central controla los datos,
+                la blockchain está replicada en miles de ordenadores (nodos) alrededor del mundo. Esto hace que sea
+                matemáticamente imposible
+                falsificar transacciones o modificar el historial sin el consenso de la red.
+                <br><br>
+                <strong>Escasez y Descentralización:</strong><br>
+                Lo que hace único a Bitcoin es su escasez digital programada: solo existirán 21 millones de bitcoins.
+                Nadie, ni gobiernos ni corporaciones, puede alterar esta política monetaria. Su resistencia a la censura
+                permite
+                que cualquier persona, en cualquier lugar, pueda enviar y recibir valor sin necesidad de intermediarios.
+            </p>
+        </div>
+    </section>
+
+    <section id="seccion-details">
+        <h2>Curiosidades del Sector</h2>
+
+        <details>
+            <summary>¿Qué es el Halving?</summary>
+            <p>El halving es un evento programado en el código de Bitcoin que reduce a la mitad la recompensa que
+                reciben los mineros por validar transacciones.</p>
+        </details>
+
+        <details>
+            <summary>El misterio de las claves perdidas</summary>
+            <p>Se estima que alrededor del 20% de todos los Bitcoins minados se han perdido para siempre debido a
+                usuarios que olvidaron sus claves privadas.</p>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Wallet perdida">
+                <figcaption>Hardware Wallet</figcaption>
+            </figure>
+        </details>
+    </section>
+
+</body>
+
+</html>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- POR HACER: Añadir  icono enlace a mi github
+<!-- POR HACER: Añadir  icono enlace a mi github y añadido footer<- hecho
                 Pulir HTML y CSS
                 Añadir enlaces a las secciones
-                ¿Añadir mas contenido a la <seccion-info>? -->
+                ¿Añadir mas contenido a la <seccion-info>? <- hecho  -->
 
 <head>
     <meta charset="UTF-8">
@@ -29,11 +29,14 @@
                 <img src="./assets/imagenes/bitcoin logo.webp" alt="Logo Bitcoin">
             </div>
 
+
             <div class="menu-links">
-                <a href="seccion-imagenes">Galería</a>
-                <a href="seccion-tabla">Tabla TopList </a>
-                <a href="seccion-info">Historia Blockchain</a>
+                <a href="#seccion-imagenes">Galería</a>
+                <a href="#seccion-tabla">Tabla TopList </a>
+                <a href="#seccion-info">Historia Blockchain</a>
             </div>
+
+
 
             <div class="login-form">
                 <div class="login">
@@ -58,7 +61,7 @@
 
         <div class="galeria-flex">
             <div>
-                <!--Como es un proyecto de posicionamiento he usado div para hacer un grid. Pero <figure> quedaría mejor-->
+                <!--Como es un proyecto de posicionamiento he usado div para hacer un display grid . Pero <figure> quedaría mejor -->
                 <img src="./assets/imagenes/1.png" alt="Bitcoin">
                 <figcaption>Bitcoin (BTC)</figcaption>
             </div>
@@ -259,6 +262,31 @@
                 permite
                 que cualquier persona, en cualquier lugar, pueda enviar y recibir valor sin necesidad de intermediarios.
             </p>
+            <p>
+                <strong>Historia y evolución</strong><br>
+                Bitcoin no nació de la nada; fue la culminación de décadas de intentos de grupos cypherpunks (como
+                Hashcash o B-money) por crear dinero digital que no dependiera de un banco central.
+                <br><br>
+                <i>2008 - El Whitepaper</i>: Satoshi Nakamoto publica "Bitcoin: A Peer-to-Peer Electronic Cash System"
+                en plena
+                crisis financiera global. El mensaje oculto en el bloque génesis ("The Times 03/Jan/2009 Chancellor on
+                brink of second bailout for banks") dejaba clara su intención política.
+                <br><br>
+                <i>2010 - Las Pizzas</i>: La primera transacción comercial (10,000 BTC por dos pizzas), se convirtió en
+                un meme histórico.
+                <br><br>
+                <i>2017 - La Guerra del Tamaño del Bloque:</i> Un momento clave. La comunidad se
+                dividió: unos querían bloques más grandes (Bitcoin Cash) y otros priorizaron la seguridad y
+                descentralización (Bitcoin core). Ganó la descentralización, aunque bitcoin cash sigue siendo una
+                criptomoneda en uso.
+                <br><br>
+                <i>2024/2025 - La Institucionalización</i>: La aprobación de los ETFs de spot en EE. UU. y la entrada de
+                fondos
+                soberanos cambiaron la estructura del mercado. Bitcoin pasó de "dinero de internet" a "oro digital" en
+                los balances de Wall Street. Supuso un cambio en la mentalidad de los inversores. Y a nivel técnico, el
+                precio subió
+                de forma exponencial desde octubre de 2024 hasta enero de 2025.
+            </p>
         </div>
     </section>
 
@@ -281,7 +309,13 @@
             </figure>
         </details>
     </section>
-
+    <footer><!--Pie de página-->
+        <div class="footer-contenido">
+            <span id="author">Rodrigo Llamas Gil - 1DAM</span>
+            &copy; 2025
+            <a class="github" href="https://github.com/RodrigoGit87" target="_blank"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
